@@ -1,0 +1,28 @@
+<div style="display: block;">
+    <div class="itr-form">
+        <form>
+            <div class="form-group">
+              <label for="user-name">User Name</label>
+              <input type="text" class="form-control" id="user-name" 
+                aria-describedby="user-name" placeholder="Enter Name"
+                [(ngModel)] = "username" (input)="onValueChange()" name="username">
+            </div> 
+            <br>
+            <div class="form-group">
+              <label for="salary">Salary</label>
+              <input type="text" class="form-control" id="salary" placeholder="Salary"
+              [(ngModel)] = "salary" (input)="onValueChange()" name="salary">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="Deductions">Deductions</label>
+                <input type="text" class="form-control" id="Deductions" placeholder="Deductions"
+                [(ngModel)] = "deductions" (input)="onValueChange()" name="deductions">
+            </div>
+            <br>
+            
+
+          </form>
+    </div>
+</div>
+

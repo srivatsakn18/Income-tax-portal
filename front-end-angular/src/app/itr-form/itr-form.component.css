@@ -1,0 +1,11 @@
+.itr-form-child {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.itr-form-parent {
+    width: 80%;
+    display: grid;
+    justify-content: normal;
+}

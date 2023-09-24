@@ -1,0 +1,8 @@
+.nav-bar-class {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-class {
+    display: flex;
+}

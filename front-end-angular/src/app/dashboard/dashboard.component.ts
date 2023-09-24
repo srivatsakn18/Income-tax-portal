@@ -17,7 +17,6 @@ export class DashboardComponent implements OnInit {
   
   ngOnInit(): void {
     this.test = "ABCD";
-    //this.ans1 = "Answer1";
     this.fetchData();
   }
 

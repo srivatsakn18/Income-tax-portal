@@ -1,0 +1,12 @@
+<div style="display: flex; justify-content: center;">
+    <div class="itr-form-parent">
+        <div class="itr-form-child">
+            <app-fill-form style="width: 50%" (itr-details)="verifyform($event)"></app-fill-form>
+            <app-calculated-return style="width: 50%;" 
+                [salary]="salary" [deductions]="deductions"></app-calculated-return>
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="disablebutton"
+            (click)="verifyform($event)">Submit</button>
+    </div>
+</div>
+
